@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" 
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent" 
+>
+ <LinearLayout  
+ android:orientation="vertical" 
+ android:layout_width="fill_parent" 
+ android:layout_height="fill_parent" 
+ android:background="#123456">
+  <EditText android:layout_width="180px" 
+  android:id="@+id/edt" 
+  android:layout_height="wrap_content"
+    android:hint="Source"/> 
+  <EditText android:layout_width="180px" 
+  android:id="@+id/edt1" 
+  android:layout_height="wrap_content"
+    android:hint="Destination"/> 
+<LinearLayout android:orientation="horizontal" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+  <Button android:text="Update" 
+  android:id="@+id/btn3" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+   android:layout_gravity="center"
+   /> 
+  </LinearLayout>
+  </LinearLayout>
+</ScrollView>

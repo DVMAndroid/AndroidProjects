@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1" >
+    
+       
+        <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="15px"
+        android:text="-:ABOUT US:-"
+        android:textSize="30px"
+    
+        android:textColor="#000000"
+        
+        android:textStyle="bold" />
+        <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+ >
+        <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Reliance Mart is a shopping store chain of Reliance Group and offers a huge spectrum of products by setting up its stores at various cities in India.The store offers software for computers which is available at its respective area where laptop products are sold."
+          android:textColor="#ffffff"
+          android:textStyle="bold" />
+        <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Reliance Mart also having the products like mobilephones,Electronic Appliances,Home and kitchen products.Due to its success in the market"
+         android:textColor="#ffffff"
+        
+        android:textStyle="bold" />
+        <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15px"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:text="Reliance Mart has widened its network by setting up more stores at various locations in India.It's having the Branches in HYDERABAD,DELHI,PUNE,BANGLORE,GURGAON,NOIDA." 
+  
+        android:textColor="#ffffff"
+        
+        android:textStyle="bold" />
+     
+    </LinearLayout>
+    </ScrollView>
+       </LinearLayout>

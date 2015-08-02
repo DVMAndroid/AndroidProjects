@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >	
+
+<HorizontalScrollView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Inside 1st HorizontalScrollView" />
+<LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<Button
+  android:text="Button A1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button A2"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button A3"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button A4"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button A5"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
+</HorizontalScrollView>
+<HorizontalScrollView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Inside 2nd HorizontalScrollView" />
+<LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<Button
+  android:text="Button B1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button B2"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button B3"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button B4"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button B5"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+<Button
+  android:text="Button B6"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>
+</HorizontalScrollView>
+<ScrollView
+android:layout_height="fill_parent"
+android:layout_width="fill_parent">
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+<TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Inside ScrollView" />
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Button C"/>
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Button D"/>
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Button E"/>
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Button F"/>
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Button G"/>
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Button H"/>
+<Button
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Button I"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+

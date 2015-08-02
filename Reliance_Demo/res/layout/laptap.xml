@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1" 
+    android:background="@drawable/back_one"
+    >
+
+   <!-- This is for the image -->
+    <ImageView
+           
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_top" />
+   
+  
+    
+ <!-- This is for the line in middle -->
+<!--      <View android:layout_width="fill_parent" -->
+<!--          android:layout_height="1px" -->
+<!--          android:background="#303025" -->
+<!--          /> -->
+      <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="42dp"
+             android:text="Items"
+             android:textColor="#A51908"
+             android:textStyle="bold"
+              />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="120dp"
+             android:layout_toRightOf="@+id/textView1"
+             android:text="Quantity" 
+             android:textColor="#A51908"
+             android:textStyle="bold"
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_marginLeft="10dp"
+             android:layout_toRightOf="@+id/textView2"
+             android:text="Price" 
+             android:textColor="#A51908"
+             android:textStyle="bold"
+             
+             />
+     </RelativeLayout>
+      
+     
+<ScrollView 
+        android:layout_width="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="fill_parent"
+        android:layout_weight="2">
+        
+        <LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >    
+<!-- This is Relative Layout in Horizontal to place CheckBox and TextViews for Chicken biryani -->
+ <RelativeLayout 
+         android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+     
+     
+     
+     <ImageView
+         
+         android:layout_width="62px"
+         android:layout_height="62px"
+         
+         android:background="@drawable/lenovo"
+         
+         />
+      <TextView
+         android:id="@+id/txt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/cb1"
+         android:layout_alignBottom="@+id/cb1"
+         
+         android:layout_toRightOf="@+id/cb1"
+         android:gravity="center"
+         android:text="lenovo" 
+         android:textColor="#00ccff"/>
+      <TextView
+         android:id="@+id/rate1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="10dp"
+         android:gravity="center_vertical"
+          android:layout_alignBaseline="@+id/cb1"
+         android:text="Rs.27000/-" 
+         android:textColor="#00ccff"/>
+
+      <TextView
+          android:id="@+id/qa1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/rate1"
+          android:layout_alignBottom="@+id/rate1"
+          android:layout_marginRight="15dp"
+          android:layout_toLeftOf="@+id/rate1"
+          android:text="1" />
+          
+      <CheckBox android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"
+       android:checked="false" 
+       android:id="@+id/cb1" 
+       android:layout_marginLeft="60px"
+       android:layout_alignParentTop="true">
+       </CheckBox>
+
+</RelativeLayout>
+ <View android:layout_width="fill_parent"
+         android:layout_height="1px"
+         android:background="#303025"
+         />
+ <!-- This is Relative Layout in Horizontal to place CheckBox and TextViews for Mutton biryani -->
+     <RelativeLayout 
+         android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         
+          <ImageView
+         
+         android:layout_width="62px"
+         android:layout_height="62px"
+         
+         android:background="@drawable/hp"
+         
+         />
+         
+     <CheckBox
+         android:id="@+id/cb2"
+         android:checked="false"
+         android:layout_marginLeft="60px"
+         
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         />
+     <TextView
+         android:id="@+id/txt1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/cb2"
+         android:layout_alignBottom="@+id/cb2"
+         
+         android:layout_toRightOf="@+id/cb2"
+         android:gravity="center"
+         android:text="HP Lap"
+         android:textColor="#00ccff" />
+     <TextView
+         android:id="@+id/rate2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+       android:layout_marginRight="10dp"
+         android:gravity="center_vertical"
+          android:layout_alignBaseline="@+id/cb2"
+         android:text="Rs.30000/-" 
+         android:textColor="#00ccff"/>
+
+     <TextView
+         android:id="@+id/qa2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/rate2"
+         android:layout_alignBottom="@+id/rate2"
+         android:layout_marginRight="15dp"
+         android:layout_toLeftOf="@+id/rate2"
+         android:text="1" />
+
+</RelativeLayout>
+ <View android:layout_width="fill_parent"
+         android:layout_height="1px"
+         android:background="#303025"
+         />
+ <!-- This is Relative Layout in Horizontal to place CheckBox and TextViews for Prawns biryani -->
+     <RelativeLayout 
+         android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+         
+          <ImageView
+         
+         android:layout_width="62px"
+         android:layout_height="62px"
+         
+         android:background="@drawable/dell"
+         
+         />
+     <CheckBox
+         android:id="@+id/cb3"
+         android:checked="false"
+           android:layout_marginLeft="60px"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         />
+     <TextView
+         android:id="@+id/txt3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/cb3"
+         android:layout_alignBottom="@+id/cb3"
+        android:layout_toRightOf="@+id/cb3"
+         android:gravity="center"
+         android:text="Dell"
+          android:textColor="#00ccff"/>
+     <TextView
+         android:id="@+id/rate3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="10dp"
+         android:gravity="center_vertical"
+         android:layout_alignBaseline="@+id/cb3"
+         android:text="Rs.32000/-"
+         android:textColor="#00ccff" />
+
+     <TextView
+         
+         
+         android:id="@+id/qa3"
+         
+          android:layout_alignBaseline="@+id/rate3"
+         android:layout_alignBottom="@+id/rate3"
+         
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="10dp"
+         android:layout_toLeftOf="@+id/rate3"
+         android:text="1"
+          />
+    
+</RelativeLayout>
+
+ 
+    <View android:layout_width="fill_parent"
+         android:layout_height="1px"
+         android:background="#303025"
+         /> 
+     <!-- This is Relative Layout in Horizontal to place checkbox and TextViews for Fish Curry -->    
+     <RelativeLayout 
+         android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content">
+          <ImageView
+         
+         android:layout_width="62px"
+         android:layout_height="62px"
+         
+         android:background="@drawable/samsunglap"
+         
+         />
+     <CheckBox
+         android:id="@+id/cb4"
+         android:checked="false"
+           android:layout_marginLeft="60px"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         />
+
+     <TextView
+         android:id="@+id/txt4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/cb4"
+         android:layout_alignBottom="@+id/cb4"
+      
+         android:layout_toRightOf="@+id/cb4"
+         android:gravity="center"
+         android:text="Samsung Lap" 
+         android:textColor="#00ccff"/>
+
+     <TextView
+         android:id="@+id/rate4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+   android:layout_marginRight="10dp"
+         android:gravity="center_vertical"
+          android:layout_alignBaseline="@+id/cb4"
+         android:text="Rs.24000/-" 
+         android:textColor="#00ccff"/>
+
+     <TextView
+         android:id="@+id/qa4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/rate4"
+         android:layout_alignBottom="@+id/rate4"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="10dp"
+         android:layout_toLeftOf="@+id/rate4"
+         android:text="1" />
+    
+</RelativeLayout>
+ <View android:layout_width="fill_parent"
+         android:layout_height="1px"
+         android:background="#303025"
+         />
+ </LinearLayout>
+ </ScrollView>
+    
+     <TextView 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"/>
+     <!-- This is Relative Layout in Horizontal to place TextViews for calculating Total -->
+     
+     
+     
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+ <Button
+              android:id="@+id/btnv1"
+              android:layout_width="100px"
+              android:layout_height="25px"
+             android:text="Bill"
+              android:textStyle="bold"
+              android:textSize="15px" 
+              android:textColor="#ffffff"
+              android:layout_marginLeft="25px"
+              android:background="@drawable/bill_img"
+              />
+               <View android:layout_width="10px"
+                     android:layout_height="10px"
+        
+         />
+
+
+          <TextView
+              android:id="@+id/txt5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_marginLeft="135px"
+              android:layout_toRightOf="@+id/btnv2"
+              
+              android:text="Total : "
+                android:textColor="#A51908"
+             android:textStyle="bold"
+               />
+
+          <TextView
+              android:id="@+id/rate5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBaseline="@+id/btnv1"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="15dp"
+              android:gravity="center_vertical"
+              android:text="Rs. 0/-"
+                android:textColor="#A51908"
+             android:textStyle="bold"
+               />
+          
+      </RelativeLayout>
+     <HorizontalScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          >
+     
+     </HorizontalScrollView>
+     <!--  This is for bottom image and the phone numbers in it to make a call -->
+      <LinearLayout 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/back_list"
+         android:gravity="center_horizontal"
+         >
+         
+          <ImageView
+             android:id="@+id/kit"
+              android:layout_width="48px"
+              android:layout_height="48px"
+              android:textStyle="bold"
+              android:background="@drawable/kit"
+              />
+               <ImageView
+              android:id="@+id/apl"
+             android:layout_width="48px"
+              android:layout_height="48px"
+              android:textStyle="bold"
+              android:background="@drawable/apl"
+              /> 
+              <ImageView
+              android:id="@+id/mob"
+            android:layout_width="48px"
+              android:layout_height="48px"
+              android:textStyle="bold"
+              android:background="@drawable/mob"
+              />
+               <ImageView
+              android:id="@+id/bran"
+             android:layout_width="48px"
+              android:layout_height="48px"
+              android:textStyle="bold"
+              android:background="@drawable/bran"
+              />
+      </LinearLayout>
+  
+
+     
+</LinearLayout>
+

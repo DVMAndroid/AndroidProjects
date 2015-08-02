@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/img1">
+     
+<TextView
+android:layout_height="10px" 
+android:layout_width="fill_parent" 
+android:text=""/>
+
+ <ImageView android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_gravity="center"
+      
+      android:background="@drawable/logo_top"/>
+
+  <TextView android:layout_height="20px" 
+      android:layout_width="fill_parent" 
+      android:text=""/> 
+      -<ScrollView 
+      android:layout_height="fill_parent" 
+      android:layout_width="fill_parent" 
+      android:orientation="vertical"> 
+      -<LinearLayout android:layout_height="fill_parent" 
+      android:layout_width="fill_parent" 
+      android:orientation="vertical"
+       xmlns:android="http://schemas.android.com/apk/res/android" 
+       android:gravity="center_vertical">
+       <TextView android:layout_height="20px" 
+      android:layout_width="fill_parent" 
+      android:text=""/> 
+<Button
+    android:id="@+id/icon1"
+     android:layout_height="wrap_content" 
+     android:layout_width="wrap_content" 
+     android:background="@drawable/img_btn"
+     android:text="AboutUs"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+     android:layout_gravity="center"/>
+      
+<TextView android:layout_height="20px" 
+      android:layout_width="fill_parent" 
+      android:text=""/> 
+ <Button 
+      android:id="@+id/icon2"
+     android:layout_height="wrap_content"
+      android:layout_width="wrap_content" 
+       android:background="@drawable/img_btn"
+     android:text="Products"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+      android:layout_gravity="center"/>
+ <TextView android:layout_height="20px" 
+      android:layout_width="fill_parent" 
+      android:text=""/> 
+  <Button 
+       android:id="@+id/icon3"
+      android:layout_height="wrap_content"
+       android:layout_width="wrap_content" 
+       android:background="@drawable/img_btn"
+     android:text="News"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+        android:layout_gravity="center"/> 
+        <TextView android:layout_height="20px" 
+      android:layout_width="fill_parent" 
+      android:text=""/> 
+        <Button
+             android:id="@+id/icon4"
+             android:layout_height="wrap_content"
+              android:layout_width="wrap_content" 
+               android:background="@drawable/img_btn"
+     android:text="Branches"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+              android:layout_gravity="center"/>
+        <TextView android:layout_height="20px" 
+      android:layout_width="fill_parent" 
+      android:text=""/> 
+         <Button 
+              android:id="@+id/icon6"
+             android:layout_height="wrap_content" 
+             android:layout_width="wrap_content"
+             android:background="@drawable/img_btn"
+     android:text="Map"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+               android:layout_gravity="center"/>
+               <TextView android:layout_height="20px" 
+      android:layout_width="fill_parent" 
+      android:text=""/> 
+         <Button 
+              android:id="@+id/icon5"
+             android:layout_height="wrap_content" 
+             android:layout_width="wrap_content"
+             android:background="@drawable/img_btn"
+     android:text="ContactUs"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+               android:layout_gravity="center"/>
+          </LinearLayout> 
+          </ScrollView> 
+          </LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">RELIANCE MART</string>
+    <string name="app_name">Welcome to Reliance Mart</string>
+    <string name="restaurant">Rayalaseema Ruchulu</string>
+    <string name="number1">6610 0044</string>
+    <string name="number2">6662 5454</string>
+   
+
+</resources>

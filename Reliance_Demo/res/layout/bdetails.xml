@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/branch_images"
+    >
+<TextView  
+    android:id="@+id/Bname"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+   
+    android:textStyle="bold"
+    android:paddingLeft="10px"
+    android:textColor="#710404"
+    />
+    <TextView  
+    android:id="@+id/Address1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+     android:textColor="#ffffff"
+       android:paddingLeft="10px"
+    />
+    <TextView  
+    android:id="@+id/Address2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+     android:textColor="#ffffff"
+       android:paddingLeft="10px"
+    />
+    <TextView  
+    android:id="@+id/Address3"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+     android:textColor="#ffffff"
+       android:paddingLeft="10px"
+    />
+    <TextView  
+    android:id="@+id/Contact"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+      android:paddingLeft="10px"
+    />
+    <TextView  
+    android:id="@+id/location"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#ffffff"
+      android:paddingLeft="10px"
+    />
+  
+</LinearLayout>

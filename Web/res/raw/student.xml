@@ -1,0 +1,29 @@
+<students>
+    <student>
+        <sno>sno:1</sno>
+        <name>Pavan</name>
+        <desg>Developer</desg>
+        <email>pavan.avvs@gmail.com</email>
+   </student>
+    
+    <student>
+      <sno>sno:2</sno>
+      <name>Raghu</name>
+      <desg>Developer</desg>
+      <email>raghupal.bheem@gmail.com</email>
+    </student>
+    
+    <student>
+      <sno>sno:3</sno>
+      <name>Krishna</name>
+      <desg>Developer</desg>
+      <email>sreekrishna222@gmail.com</email>
+    </student>
+    
+    <student>
+      <sno>sno:4</sno>
+      <name>Natraj</name>
+      <desg>Developer</desg>
+      <email>gudumala.nataraj@gmail.com</email>
+    </student>
+</students>
